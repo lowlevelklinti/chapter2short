@@ -1,86 +1,43 @@
-# \# chapter2short
+**chapter2short**
 
-# 
+*One video. Every chapter. A Short for each.*
 
-# > One video. Every chapter. A Short for each.
+A simple Python tool that creates a ready-to-go YouTube Short for each chapter in a YouTube video.
 
-# 
+**Features**
 
-# A simple Python tool that creates a ready-to-go YouTube Short for each chapter in a YouTube video.
+- YouTube URL support
+- Automatically detects video chapters
+- Cuts each chapter into its own video
+- Uses chapter names for filenames
+- Automated workflow
+- Outputs `.mp4` files
 
-# 
+**USAGE:**
 
-# \## Features
+**1. Clone the Repo.**
 
-# 
+```bash
+git clone https://github.com/yourusername/chapter2short.git
+cd chapter2short
+```
 
-# \- YouTube URL support
+**2. Install Dependencies.**
 
-# \- Automatically detects video chapters
+```bash
+pip install -r requirements.txt
+```
 
-# \- Cuts each chapter into its own video
+**3. Run The Tool.**
 
-# \- Uses chapter names for filenames
+```bash
+python main.py
+```
 
-# \- Automated workflow
+That's it. Simply enter your desired YouTube video link.
 
-# \- Outputs `.mp4` files
+**DISCLAIMER:**
 
-# 
+**THIS TOOL SHALL NOT BE USED TO AUTOMATE STOLEN YOUTUBE/TIKTOK SHORTS/VIDEOS.**
 
-# \## Usage
-
-# 
-
-# \### 1. Clone the Repo
-
-# 
-
-# ```bash
-
-# git clone https://github.com/lowlevelklinti/chapter2short.git
-
-# cd chapter2short
-
-# ```
-
-# 
-
-# \### 2. Install Dependencies
-
-# 
-
-# ```bash
-
-# pip install -r requirements.txt
-
-# ```
-
-# 
-
-# \### 3. Run The Tool
-
-# 
-
-# ```bash
-
-# python main.py
-
-# ```
-
-# 
-
-# That's it. Simply enter your desired YouTube video link when prompted.
-
-# 
-
-# \## Disclaimer
-
-# 
-
-# \*\*THIS TOOL SHALL NOT BE USED TO AUTOMATE STOLEN YOUTUBE/TIKTOK SHORTS/VIDEOS.\*\*
-
-# 
-
-# Only use `chapter2short` with content you own or have permission to download and edit.
-
+Only use this tool with content you own or have permission to download and edit.
